@@ -29,7 +29,6 @@ public class RunMain {
 			path = properties.getProperty("path");
 			url = properties.getProperty("url");
 			login_token = properties.getProperty("login_token");
-			domain_id = properties.getProperty("domain_id");
 			domain = properties.getProperty("domain");
 			bufferedReader.close();
 			isExist = true;
