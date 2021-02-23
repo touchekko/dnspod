@@ -79,6 +79,7 @@ public class RunMain {
 					info.setTtl(ttl);
 					info.setMx(mx);
 					info.setStatu(statu);
+					info.setLOGIN_TOKEN(login_token);
 					logger.info("DNS信息为:" + json);
 				}else {
 					logger.error("---状态错误，无法解析DNS！！！");
