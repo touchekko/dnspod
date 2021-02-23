@@ -28,7 +28,6 @@
 	url=IP获取地址(必须)如:https://api.ip.sb/ip
 	login_token=你在DNSPOD的token(必须),详情访问https://www.dnspod.cn/login
 	domain=你在DNSPOD的域名(必须)
-	domain_id=你在DNSPOD的域名ID(可选)
 	
 四、运行
 	
