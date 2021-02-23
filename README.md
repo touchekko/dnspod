@@ -10,9 +10,11 @@
 
 二、配置文件
 
+	在jar文件运行目录下创建dnspod.properties文件
 	dnspod.properties中的参数都是必备可少的,注意:该配置文件必须和运行的jar文件在同一路径下
-		path=运行目录,如:/opt/soft
-		url=IP获取地址(必须)如:https://api.ip.sb/ip
-		login_token=你在DNSPOD的token(必须)
-		domain=你在DNSPOD的域名(必须)
-		domain_id=你在DNSPOD的域名ID(可选)
+	参数如下:
+	path=运行目录,如:/opt/soft
+	url=IP获取地址(必须)如:https://api.ip.sb/ip
+	login_token=你在DNSPOD的token(必须),详情访问https://www.dnspod.cn/login
+	domain=你在DNSPOD的域名(必须)
+	domain_id=你在DNSPOD的域名ID(可选)
